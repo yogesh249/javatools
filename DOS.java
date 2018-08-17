@@ -20,7 +20,7 @@ public class DOS
         Process proc=null;
         try
         {
-            if(executionDir!=null)
+            if(executionDir!=null) 
             {
                  proc=Runtime.getRuntime().exec(steps, null, new File(executionDir));
             }
